@@ -9,7 +9,7 @@ connectDB();
 // Init Middleware
 app.use(express.json({ extended: false }));
 
-app.get('/', (req, res) => res.json({ msg: 'Welcom to the Keeper API' }));
+app.get('/', (req, res) => res.json({ msg: 'Welcome to the Keeper API' }));
 
 // Define Routes
 app.use('/api/users', require('./routes/users.js'));
