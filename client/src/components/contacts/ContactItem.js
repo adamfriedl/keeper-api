@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
-import ContactState from '../../context/contact/ContactState';
 import ContactContext from '../../context/contact/contactContext';
 
 const ContactItem = ({ contact }) => {
